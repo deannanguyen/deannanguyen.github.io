@@ -27,17 +27,17 @@ h1.display-4 {
   max-width: 940px;
 }
 
-.container-fluid {
+.container-fluid-about {
   width: 100%;
   background-color: #ffeae7;
 }
 
-.container-fluid-2 {
+.container-fluid-contact {
   width: 100%;
   background-color: #f1cbc6;
 }
 
-.container-fluid-3 {
+.container-fluid-bar {
   width: 100%;
   background-color: #000000;
 }
@@ -66,23 +66,19 @@ h1.display-4 {
 }
 
 .hr {
-  border: 2px solid #000000;
-  margin-top: 10rem;
+  border: 1px solid #000000;
+  margin-top: 5rem;
   margin-bottom: 0;
 }
 
 .row {
-  padding-top: 40px;
+  padding-top: 20px;
   padding-bottom: 40px;
 }
 
-.row-2 {
+.row-badge {
   padding-top: 0px;
   padding-bottom: 0px;
-}
-
-.row-footer-top {
-  padding-top: 3px;
 }
 
 .row-footer-bottom {
