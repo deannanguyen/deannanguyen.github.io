@@ -1,9 +1,11 @@
-/* @media (min-width: 1200px) {
-  #about .container, .inner-projects .container {
-    width: 1000px !important;
-  }
-} */
-
 #app {
     width: 100%;
+}
+
+.container {
+    max-width: 700px;
+}
+
+.jumbotron {
+    background: #FFFFFF;
 }
