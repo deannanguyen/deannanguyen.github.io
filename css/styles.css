@@ -1,6 +1,7 @@
 #app {
   width: 100%;
 }
+
 h1.display-4 {
   font-size: 2rem;
 }
@@ -49,11 +50,12 @@ h1.display-4 {
 .navbar-expand-sm .navbar-nav .nav-link {
   padding-right: 12px;
   padding-left: 12px;
+  color: #007bff;
+  font-family: Overpass Mono;
 }
 
-.nav-link {
-  padding-top: 12px;
-  padding-bottom: 12px;
+.nav-link:hover {
+  color: #ff9789;
 }
 
 .jumbotron {
@@ -100,34 +102,38 @@ h1.display-4 {
 }
 
 .badge-primary {
-  /* outline style
-  background-color: #FFFFFF;
-  color: #000000;
-  border: 1px solid #000000;
-  */
-
   color: #000000;
   background-color: #FFFFFF;
   border: 1px solid #bebebe;
 }
 
 .btn-primary {
-  /*border: none;
+  border: none;
   padding-left: 0px;
   text-decoration: underline;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  padding-right: 1rem;*/
+  padding-right: 1rem;
+}
 
-  border: 2.5px solid #000000;
-  border-radius: 0px;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-right: 0.75rem;
-  padding-left: 0.75rem;
-  margin-top: 2rem;
+.btn-primary:hover {
+  color: #ff9789;
+}
+
+.btn-primary:focus {
+  color: #ff9789;
+}
+
+a:hover {
   color: #000000;
-  background-color: #b0ded0;
+}
+
+a:focus {
+  color: #000000;
+}
+
+.img-margin {
+  margin-bottom: 20px;
 }
 
 .text-tight {
