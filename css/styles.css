@@ -54,10 +54,6 @@ h1.display-4 {
   font-family: Overpass Mono;
 }
 
-.nav-link:hover {
-  color: #ff9789;
-}
-
 .jumbotron {
   background: #FFFFFF;
   margin-bottom: 0px;
@@ -67,10 +63,10 @@ h1.display-4 {
   padding-right: 0px;
 }
 
-.hr {
+.hr-landing {
   border: 1px solid #000000;
-  margin-top: 2rem;
-  margin-bottom: 0;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 }
 
 .row {
@@ -89,7 +85,7 @@ h1.display-4 {
 }
 
 .row-footer-bottom {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .badge-pill {
@@ -117,11 +113,11 @@ h1.display-4 {
 }
 
 .btn-primary:hover {
-  color: #ff9789;
+  color: #df9389;
 }
 
 .btn-primary:focus {
-  color: #ff9789;
+  color: #df9389;
 }
 
 a:hover {
