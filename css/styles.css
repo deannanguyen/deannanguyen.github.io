@@ -33,11 +33,6 @@ h1.display-4 {
   background-color: #ffeae7;
 }
 
-.container-fluid-contact {
-  width: 100%;
-  background-color: #f1cbc6;
-}
-
 .container-fluid-bar {
   width: 100%;
   background-color: #000000;
@@ -52,6 +47,16 @@ h1.display-4 {
   padding-left: 12px;
   color: #007bff;
   font-family: Overpass Mono;
+  text-align: right;
+}
+
+.navbar-light .navbar-toggler {
+  color: #007bff;
+  border: 0px;
+}
+
+.navbar-toggler:hover{
+  color: #000000;
 }
 
 .jumbotron {
@@ -69,6 +74,12 @@ h1.display-4 {
   margin-bottom: 2rem;
 }
 
+.hr-resume {
+  border: 1px solid #000000;
+  margin-top: 3em;
+  margin-bottom: .5em;
+}
+
 .row {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -77,6 +88,14 @@ h1.display-4 {
 .row-about {
   padding-top: 40px;
   padding-bottom: 40px;
+}
+
+.row-resume {
+  padding-top: 10px;
+}
+
+.row-resumepic {
+  padding-top: 60px;
 }
 
 .row-badge {
