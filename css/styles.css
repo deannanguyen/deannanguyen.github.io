@@ -28,7 +28,14 @@ h1.display-4 {
   max-width: 940px;
 }
 
-.container-fluid-about {
+.container-fluid-case {
+  width: 100%;
+  background-color: #ffeae7;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.container-fluid-contact {
   width: 100%;
   background-color: #ffeae7;
 }
@@ -80,14 +87,32 @@ h1.display-4 {
   margin-bottom: .25em;
 }
 
+.hr-case {
+  border: 1px solid #000000;
+  margin-top: .25em;
+  margin-bottom: .25em;
+}
+
+.hr-case-bot {
+  border: 1px solid #000000;
+  margin-top: .25em;
+  margin-bottom: 1.5em;
+}
+
 .row {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-.row-about {
+.row-contact {
   padding-top: 40px;
   padding-bottom: 40px;
+}
+
+.row-case {
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-bottom: 20px;
 }
 
 .row-resume {
@@ -125,19 +150,43 @@ h1.display-4 {
 .btn-primary {
   border: none;
   padding-left: 0px;
+  background-color: #FFFFFF;
+  color: #007bff;
   text-decoration: underline;
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-right: 1rem;
 }
 
-.btn-primary:hover {
+.btn-primary:hover  {
   color: #df9389;
+  background-color: #FFFFFF;
 }
 
 .btn-primary:focus {
   color: #df9389;
 }
+
+.btn {
+  border: none;
+  padding-left: 0px;
+  background-color: #FFFFFF;
+  color: #007bff;
+  text-decoration: underline;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+}
+
+.btn:hover  {
+  color: #df9389;
+  background-color: #FFFFFF;
+}
+
+.btn:focus {
+  color: #df9389;
+}
+
 
 a:hover {
   color: #000000;
@@ -145,6 +194,10 @@ a:hover {
 
 a:focus {
   color: #000000;
+}
+
+.p-bottom {
+  margin-bottom:20px;
 }
 
 .img-margin {
