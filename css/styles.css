@@ -28,6 +28,10 @@ h1.display-4 {
   max-width: 940px;
 }
 
+.container-casepic {
+  max-width: 990px;
+}
+
 .container-fluid-case {
   width: 100%;
   background-color: #ffeae7;
@@ -43,6 +47,11 @@ h1.display-4 {
 .container-fluid-bar {
   width: 100%;
   background-color: #000000;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
 }
 
 .navbar {
@@ -88,13 +97,13 @@ h1.display-4 {
 }
 
 .hr-case {
-  border: 1px solid #000000;
-  margin-top: .25em;
-  margin-bottom: .25em;
+  border: .5px solid #000000;
+  margin-top: 0em;
+  margin-bottom: 0em;
 }
 
 .hr-case-bot {
-  border: 1px solid #000000;
+  border: .5px solid #000000;
   margin-top: .25em;
   margin-bottom: 1.5em;
 }
@@ -110,9 +119,7 @@ h1.display-4 {
 }
 
 .row-case {
-  padding-left: 80px;
-  padding-right: 80px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .row-resume {
@@ -147,26 +154,6 @@ h1.display-4 {
   border: 1px solid #bebebe;
 }
 
-.btn-primary {
-  border: none;
-  padding-left: 0px;
-  background-color: #FFFFFF;
-  color: #007bff;
-  text-decoration: underline;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-right: 1rem;
-}
-
-.btn-primary:hover  {
-  color: #df9389;
-  background-color: #FFFFFF;
-}
-
-.btn-primary:focus {
-  color: #df9389;
-}
-
 .btn {
   border: none;
   padding-left: 0px;
@@ -180,6 +167,7 @@ h1.display-4 {
 
 .btn:hover  {
   color: #df9389;
+  text-decoration: underline;
   background-color: #FFFFFF;
 }
 
