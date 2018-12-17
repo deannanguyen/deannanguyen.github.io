@@ -34,7 +34,7 @@
                                     <a class="nav-link" href="#">Work</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="resume.html">About</a>
+                                    <a class="nav-link" href="about.html">About</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#contact">Contact</a>
@@ -52,7 +52,7 @@
                         <div class="row"></div>
                         <div class="row d-none d-sm-block"></div>
                         <h1>Helping tax filers get USAA tax info into TurboTax</h1>
-                        <h6><span style="color: #df9389;">Platform product designer</span></h6>
+                        <h6><span style="color: #df9389;">Product designer - Platform</span></h6>
                         <h6><span style="color: #a1a1a1;">Nov 2017 - Jan 2018</span></h6>
                     </div>
                     <div class="col-md-5">
@@ -144,7 +144,7 @@
                 <div class="row row-case">
                     <div class="col-md-12">
                         <h3>TurboTax's initial experience</h3>
-                        <p>In TurboTax, most banks request username and password to authenticate and import data into the product. Unlike these banks, USAA asks filers for username and a special access code, which can only obtained via a unique link to USAA’s bank site.</p>
+                        <p>In TurboTax, most banks request username and password to authenticate and import data into the product. Unlike these banks, USAA asks filers for username and a unique tax form import code, which can only obtained via a unique link to USAA’s bank site.</p>
                     </div>
                 </div>
 
@@ -161,6 +161,8 @@
                     <img src="images/ttousualflowchart.jpg" class="img-fluid img-2x">
                 </div>
             <div>
+            
+            <div class="row"></div>
 
             <div class="container">
                 <div class="row row-case">
@@ -185,7 +187,7 @@
                     </div>
                     <div class="col-md-9">
                         <p>
-                            I focused on how TurboTax was instructing users to get their access code and had several hypotheses with where users were running into trouble. I prototyped the control experience in Axure ran usability tests with 10 US users who were customers of both USAA and TurboTax. Test bank credentials were provided to the participants.
+                            I focused on how TurboTax was instructing users to get their import code and had several hypotheses with where users were running into trouble. I prototyped the control experience in Axure ran usability tests with 10 US users who were customers of both USAA and TurboTax. Test bank credentials were provided to the participants.
                         </p>
                     </div>
                 </div>
@@ -203,10 +205,10 @@
                     <div class="col-md-9">
                         <ol>
                             <li>
-                                No one succeeded on their first try, all users tried their password instead of access code
+                                No one succeeded on their first try, all users tried their password instead of code
                             </li>
                             <li>
-                                Users focus on authentication fields and don't read instructions
+                                Users focus on authentication fields and don't read instructions or long field labels
                             </li>
                             <li>
                                 No one saw the link to USAA's site in the legal text on the first try
@@ -240,7 +242,7 @@
                 <hr class="hr-case-bot">
                 <div class="row row-case">
                     <div class="col-md-3">
-                        <h3>First round of ideation and testing</h3>
+                        <h3>Ideation</h3>
                     </div>
                     <div class="col-md-9">
                         <p>I brainstormed ideas and narrowed on 2 ideas to test based on prioritizing user benefit, team feedback, project timelines, current product patterns, and contractual agreements with USAA.</p>
@@ -248,19 +250,46 @@
                 </div>
                 
                 <div class="row row-case">
-                    <div class="col-md-12">
-                        <h3>Version A &#8212; 2-step flow</h3>
-                        <p><b><i>Hypothesis:</i></b> If we separate the instructions from the authentication fields, users can focus on getting the code first then authentication, rather than both at once.</p>
+                    <div class="col-md-3">
+                        <h3>Version A 2-step flow</h3>
                     </div>
-                    <div class="col-md-12">
-                        <h3>Version B &#8212; 3-step flow</h3>
-                        <p><b><i>Hypothesis:</i></b> If we separate the authentication instructions into individual steps, users will pay more attention because the experience differs noticeably from the usual experience.</p>
+                    <div class="col-md-9">
+                            <p><b>Hypothesis:</b> If we separate the instructions from the authentication fields, users can focus on getting the code first then authentication, rather than both at once.</p>
+                            <p><a href="https://kx6zwr.axshare.com/turbotax_2.html" alt="2-step flow prototype" target="_blank">Axure prototype</a></p>
                     </div>
                 </div>
+            </div>
 
+            <div class="row-badge">
+                <div class="parent"> 
+                    <img src="images/2stepflow.jpg" class="img-fluid img-2x">
+                </div>
+            <div>
+            
+            <div class="container">
+                <div class="row"></div>
                 <div class="row row-case">
                     <div class="col-md-3">
-                        <h3>Research method</h3>
+                        <h3>Version B 3-step flow</h3>
+                    </div>
+                    <div class="col-md-9">
+                            <p><b>Hypothesis:</b> If we separate the authentication instructions into individual steps, users will pay more attention because the experience differs noticeably from the usual experience.</p>
+                            <p><a href="https://sjpori.axshare.com/turbotax_2.html" alt="3-step flow prototype" target="_blank">Axure prototype</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row-badge">
+                <div class="parent"> 
+                    <img src="images/3stepflow.jpg" class="img-fluid img-2x">
+                </div>
+            <div>
+
+            <div class="container">
+                <div class="row"></div>
+                <div class="row row-case">
+                    <div class="col-md-3">
+                        <h3>Testing</h3>
                     </div>
                     <div class="col-md-9">
                         <ul>
@@ -289,25 +318,31 @@
                 <hr class="hr-case-bot">
                 <div class="row row-case">
                     <div class="col-md-12">
-                        <h3>Second round of ideation and testing</h3>
+                        <h3>Further ideation and testing</h3>
                     </div>
+                    
                     <div class="col-md-12">
-                        <p>Despite the success of the 3-step flow over the 2-step flow, there were still usability issues.<br>INSERT IMAGE<br>Discoverability issue: some users didn’t see the link. Instructional issue: some users did not know to click the link</p>
-                        <p>Designing within the constraints of existing product patterns, I created three more concepts and ran the same test.</p>
+                        <p>Despite the success of the 3-step flow over the 2-step flow, there were still usability issues.</p>
+                        <div class="row-badge">
+                            <div class="parent"> 
+                                <img src="images/3steppain.jpg" class="img-fluid img-2x">
+                            </div>
+                        </div>
+                        <div class="row"></div>
+                        <ol>
+                            <li>Instructional issues: some users didn't know to click the link</li>
+                            <li>Discoverability issues: some users didn’t see the link</li>
+                        </ol>
                     </div>
                 </div>
 
                 <div class="row row-case">
                     <div class="col-md-12">
-                        <h3>Version A &#8212; 2-step flow</h3>
-                        <p><b><i>Hypothesis:</i></b> If we separate the instructions from the authentication fields, users can focus on getting the code first then authentication, rather than both at once.</p>
+                        <h3>Version A &#8212; Prominent call-to-action</h3>
+                        <p><b>Hypothesis:</b> If we separate the instructions from the authentication fields, users can focus on getting the code first then authentication, rather than both at once.</p>
                     </div>
                     <div class="col-md-12">
-                        <h3>Version B &#8212; 3-step flow</h3>
-                        <p><b><i>Hypothesis:</i></b> If we separate the authentication instructions into individual steps, users will pay more attention because the experience differs noticeably from the usual experience.</p>
-                    </div>
-                    <div class="col-md-12">
-                        <h3>Version C &#8212; 3-step flow</h3>
+                        <h3>Version B &#8212; Use the primary call-to-action</h3>
                         <p><b><i>Hypothesis:</i></b> If we separate the authentication instructions into individual steps, users will pay more attention because the experience differs noticeably from the usual experience.</p>
                     </div>
                 </div>
@@ -315,7 +350,7 @@
 
                 <div class="row row-case">
                     <div class="col-md-3">
-                            <h3>Research insights</h3>
+                        <h3>Research insights</h3>
                     </div>
                     <div class="col-md-9">
                         <p><span style="font-size: 1.75rem; line-height: 1.2;">Version A was most successful for users</span><br>because it was linear and consistent with existing patterns users were accustomed to in TurboTax. Also, using a verb in the primary button made it clear to users what was next.</p>
