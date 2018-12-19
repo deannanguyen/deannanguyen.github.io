@@ -131,239 +131,237 @@
                 </div>
                 <div class="row row-footer-bottom"></div>
             </div>
-        </div>
 
-        <!--SOLUTION-->
-        <div class="container-fluid-case">
+            <!--SOLUTION-->
+            <div class="container-fluid-case">
+                <div class="container">
+                    <div class="row row-case">
+                        <div class="col-md-3">
+                            <h3>Solution</h3>
+                        </div>
+                        <div class="col-md-9">
+                            <p><span style="font-size: 1.75rem; line-height: 1.2;">Partner with banks to provide a direct bank feed where the bank sends transactions directly to Intuit</span></p>
+                            <p>instead of Intuit hitting bank servers and pulling user data periodically. This means users will no longer have bank errors or duplicate/missing data.</p>
+                            <p>To get this direct bank feed, users need to authorize their banks to send the data to Intuit. For large banks in AU and UK, users apply with a Customer Authorisation Form (CAF).</p>
+                        </div>
+                    </div>
+                    <div class="row row-case">
+                        <div class="col-md-3">
+                            <h3>Comparing connection methods</h3>
+                        </div>
+                        <div class="col-md-4">
+                            <p><span style="font-size: 1.75rem; line-height: 1.2;">Screen-scraping</span></p>
+                            <b>Pros</b>
+                            <ul>
+                                <li>User gets data immediately</li>
+                            </ul>
+                            <b>Cons</b>
+                            <ul>
+                                <li>Connections prone to errors and duplicate transactions</li>
+                                <li>Intuit causes heavy load on bank servers due to periodically requesting data</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <p><span style="font-size: 1.75rem; line-height: 1.2;">Direct bank feed</span></p>
+                            <b>Pros</b>
+                            <ul>
+                                <li>No errors and duplicate transactions</li>
+                                <li>User doesn't need to enter a username/password, less liability for Intuit and banks</li>
+                                <li>Banks send transactions directly to Intuit</li>
+                            </ul>
+                            <b>Cons</b>
+                            <ul>
+                                <li>Application process is laborious</li>
+                                <li>User doesn't get data immediately because application takes several days to approve</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--UNDERSTANDING PROCESS/CUSTOMERS-->
             <div class="container">
+                <div class="row"></div>
                 <div class="row row-case">
                     <div class="col-md-3">
-                        <h3>Solution</h3>
+                        <h3>Understanding requirements</h3>
                     </div>
                     <div class="col-md-9">
-                        <p><span style="font-size: 1.75rem; line-height: 1.2;">Partner with banks to provide a direct bank feed where the bank sends transactions directly to Intuit</span></p>
-                        <p>instead of Intuit hitting bank servers and pulling user data periodically. This means users will no longer have bank errors or duplicate/missing data.</p>
-                        <p>To get this direct bank feed, users need to authorize their banks to send the data to Intuit. For large banks in AU and UK, users apply with a Customer Authorisation Form (CAF).</p>
+                        <p>To design an experience taking users through this process, I worked with product managers, business development and government regulators to understand what AU and UK banks needed from users. Some requirements came from government rules while others were specific to the bank.</p>
                     </div>
                 </div>
                 <div class="row row-case">
                     <div class="col-md-3">
-                        <h3>Comparing connection methods</h3>
-                    </div>
-                    <div class="col-md-4">
-                        <p><span style="font-size: 1.75rem; line-height: 1.2;">Screen-scraping</span></p>
-                        <b>Pros</b>
-                        <ul>
-                            <li>User gets data immediately</li>
-                        </ul>
-                        <b>Cons</b>
-                        <ul>
-                            <li>Connections prone to errors and duplicate transactions</li>
-                            <li>Intuit causes heavy load on bank servers due to periodically requesting data</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <p><span style="font-size: 1.75rem; line-height: 1.2;">Direct bank feed</span></p>
-                        <b>Pros</b>
-                        <ul>
-                            <li>No errors and duplicate transactions</li>
-                            <li>User doesn't need to enter a username/password, less liability for Intuit and banks</li>
-                            <li>Banks send transactions directly to Intuit</li>
-                        </ul>
-                        <b>Cons</b>
-                        <ul>
-                            <li>Application process is laborious</li>
-                            <li>User doesn't get data immediately because application takes several days to approve</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--UNDERSTANDING PROCESS/CUSTOMERS-->
-        <div class="container">
-            <div class="row"></div>
-            <div class="row row-case">
-                <div class="col-md-3">
-                    <h3>Understanding requirements</h3>
-                </div>
-                <div class="col-md-9">
-                    <p>To design an experience taking users through this process, I worked with product managers, business development and government regulators to understand what AU and UK banks needed from users. Some requirements came from government rules while others were specific to the bank.</p>
-                </div>
-            </div>
-            <div class="row row-case">
-                <div class="col-md-3">
-                    <h3>Initial context</h3>
-                </div>
-                <div class="col-md-9">
-                    <ul>
-                        <li>Accountants are more familiar with the process and benefit.</li>
-                        <li>Users have to apply for the feed with a Customer Authorisation Form (CAF).</li>
-                        <li>Each bank has its own form that requires varying amounts of information from users.</li>
-                        <li>Only certain bank account types are eligible for direct feeds, depending on the bank.</li>
-                        <li>Users need to print, hand-sign, and mail their forms to a specific mailing address to get their application processed.</li>
-                        <li>Banks take several business days to process the form.</li>
-                        <li>Product managers want to help new users get transactions in immediately. This means users need to connect via screen-scraping and also enroll in a direct feed.</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row row-case">
-                <div class="col-md-3">
-                    <h3>Understanding users and their journey</h3>
-                </div>
-                <div class="col-md-9">
-                    <p>This experience impacts small-business owners, self-employed users, and accountants.  I also needed to consider experience differences for new users versus existing users.</p>
-                    <p>Since the end-to-end task can't be completed in one session, I worked with product managers and business development to define and map the process.</p>
-                </div>
-            </div>
-        </div>
-
-        <!--USER FLOW IMAGES-->
-
-        <!--IDEAL STATE PRINCIPLES & IDEATION-->
-        <div class="container">
-            <div class="row"></div>
-            <hr class="hr-case-bot">
-            <div class="row row-case">
-                <div class="col-md-3">
-                    <h3>Principles for an ideal experience</h3>
-                </div>
-                <div class="col-md-9">
-                    <p>The complexities of this process and how it differs from the other connection methods revealed an opportunity to define how we should surface any connection option to users. Our platform team worked closely with the product groups to define principles that would drive our decisions.</p>
-                    <ol>
-                        <li>Help users get value from their data as soon as possible</li>
-                        <li>Minimize choice and confusion for users, we should know the best way to get their data quickly and reliably</li>
-                        <li>Ensure users continually get fresh and accurate data</li>
-                    </ol>
-                </div>
-            </div>
-            <hr class="hr-case-bot">
-            <div class="row row-case">
-                <div class="col-md-3">
-                    <h3>Ideation</h3>
-                </div>
-                <div class="col-md-9">
-                    <p>I consulted with QBO/QBSE designers, product managers, business development, backend architects, and engineers on the product teams and global teams to understand the timeline and constraints to produce a version 1 flow.</p>
-                </div>
-            </div>
-        </div>
-
-        <!--V1 FLOW-->
-
-        <!--TESTING/INSIGHTS/CHALLENGES-->
-        <div class="container">
-            <div class="row"></div>
-            <div class="row row-case">
-                <div class="col-md-3">
-                    <h3>Testing</h3>
-                </div>
-                <div class="col-md-9">
-                    <p>I prototyped the experience in InVision and tested several iterations with QuickBooks small-business owners. I made sure to survey a variety of small-business owners ranging from ecommerce to consultants.</p>
-                    <ul>
-                        <li>Unmoderated task completion with 32 AU users and 30 UK users</li>
-                        <li>Measured for task success rate and flow comprehension</li>
-                        <li>Product managers gathered qualititative verbal feedback from accountants</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row row-case">
-                <div class="col-md-3">
-                    <h3>Insights</h3>
-                </div>
-                <div class="col-md-9">
-                    <p>The biggest opportunity is influencing banks to simplify the process for users.</p>
-                    <ul>
-                        <li>Usability of the flow performed well</li>
-                        <li>Users didn't fully understand differences between a standard feed vs. direct bank feed</li>
-                        <li>Major pain point was having to print and send the form and the time to activation</li>
-                    </ul>
-                    <p>We iterated on the design based on these insights and released a version 1.</p>
-                </div>
-            </div>
-        </div>
-
-        <!--V1 DELIVERABLE-->
-        <div class="container-fluid-case">
-            <div class="container">
-                <div class="row row-case">
-                    <div class="col-md-3">
-                        <h3>V1 Implementation</h3>
+                        <h3>Initial context</h3>
                     </div>
                     <div class="col-md-9">
-                        <p>We released the V1 on web first with a native iOS and Android release soon after. I provided interaction, visual and accessibility spec while our content designer provided text design.</p>
+                        <ul>
+                            <li>Accountants are more familiar with the process and benefit.</li>
+                            <li>Users have to apply for the feed with a Customer Authorisation Form (CAF).</li>
+                            <li>Each bank has its own form that requires varying amounts of information from users.</li>
+                            <li>Only certain bank account types are eligible for direct feeds, depending on the bank.</li>
+                            <li>Users need to print, hand-sign, and mail their forms to a specific mailing address to get their application processed.</li>
+                            <li>Banks take several business days to process the form.</li>
+                            <li>Product managers want to help new users get transactions in immediately. This means users need to connect via screen-scraping and also enroll in a direct feed.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row row-case">
+                    <div class="col-md-3">
+                        <h3>Understanding users and their journey</h3>
+                    </div>
+                    <div class="col-md-9">
+                        <p>This experience impacts small-business owners, self-employed users, and accountants.  I also needed to consider experience differences for new users versus existing users.</p>
+                        <p>Since the end-to-end task can't be completed in one session, I worked with product managers and business development to define and map the process.</p>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!--CHALLENGES/IMPACT/NEXT STEPS-->
-        <div class="container">
-            <div class="row"></div>
-            <div class="row row-case">
-                <div class="col-md-3">
-                    <h3>Overall challenges</h3>
-                </div>
-                <div class="col-md-9">
-                    <p><b>Solving edge cases related to existing users</b><br>
-                    Existing users had a hard time understanding the benefit of upgrading to direct bank feeds when the process was so laborious. Existing users already had data coming from screen-scraping. Migrating to a new connection method caused data issues that we had to guide users through resolving.</p>
-                    <p><b>Reconciling integration and experience across different product tech stacks</b><br>
-                    Notification systems in QBO and QBSE are technologically different, making it difficult to coordinate messaging to users. Also, this direct bank feed feature integration had to fit in with both QBO and QBSE despite differences in their flows.</p>
-                    <p><b>Aligning with other connection methods</b><br>
-                    Various AU and UK banks also use a connection method called WebAuth. We worked to consolidate and extend design patterns and technology to the WebAuth use case as well.</p>
-                    <p><b>Solving bank specific use cases</b><br>
-                    Some banks had specific requests which we had to design and solve for. I worked closely with engineering to understand and ensure my design solutions for one bank could scale to another.</p>
-                    <p><b>Changes in product management</b><br>
-                    High turnover of product managers due to re-orgs in QBO caused significant churn. I spent much time educating partners on the project and influencing changing priorities.</p>
-                </div>
-            </div>
+            <!--USER FLOW IMAGES-->
 
-            <div class="row row-case">
-                <div class="col-md-3">
-                    <h3>Impact</h3>
-                </div>
-                <div class="col-md-9">
-                    <ul>
-                        <li>Increased QuickBooks’ direct bank feed market coverage in UK by 30% and in AU to 76%, surpassing competitors' coverage</li>
-                        <li>Significant reduction in care calls received regarding screen-scraping connection issues as users migrate to direct bank feeds</li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="row row-case">
-                <div class="col-md-3">
-                    <h3>Next steps</h3>
-                </div>
-                <div class="col-md-9">
-                    <p>Given the constraints of what we could do in V1, there was ample opportunity to improve the experience. I collaborated with our platform team to explore enhancements for future versions using user feedback from V1.</p>
-                    <ul>
-                        <li>Manual entry of form information is a big deterrent, especially when some banks require many fields. Can we automate getting this data? What are the engineering limitations?</li>
-                        <li>Users can't distinguish the difference between the two connection types. Knowing this, is there a better way to position the tasks?</li>
-                        <li>Printing, hand-signing, and mailing the form is a big pain point. How can we work with banks to update this process while complying with regulations?</li>
-                    </ul>
-                    <p>Currently, our team is working through all these enhancements. We're coordinating with product teams and financial institutions to break down the steps to reach an ideal state geared towards minimal work for the user. I’m currently designing and prototyping the optimal experience for each intermediate release.</p>               
-                </div>
-            </div>
-        </div>
-
-
-        <!-- FOOTER -->
-        <div class="container-fluid-contact" id="contact">
+            <!--IDEAL STATE PRINCIPLES & IDEATION-->
             <div class="container">
-                <div class="row row-contact">
-                    <div class="col-md-12">
-                        <p><b>Let's collaborate?</b> <a href="mailto:deanna.ux@gmail.com"><u>deanna.ux@gmail.com</u></a></p>
-                        <p class="text-tight">
-                            <a href="https://www.linkedin.com/in/deannangyn/" alt="linkedin"><i class="fab fa-linkedin-in fa-lg"></i></a>
-                            <a href="https://github.com/deannanguyen" alt="github"><i class="fab fa-github fa-lg"></i></a>
-                        </p>
+                <div class="row"></div>
+                <hr class="hr-case-bot">
+                <div class="row row-case">
+                    <div class="col-md-3">
+                        <h3>Principles for an ideal experience</h3>
+                    </div>
+                    <div class="col-md-9">
+                        <p>The complexities of this process and how it differs from the other connection methods revealed an opportunity to define how we should surface any connection option to users. Our platform team worked closely with the product groups to define principles that would drive our decisions.</p>
+                        <ol>
+                            <li>Help users get value from their data as soon as possible</li>
+                            <li>Minimize choice and confusion for users, we should know the best way to get their data quickly and reliably</li>
+                            <li>Ensure users continually get fresh and accurate data</li>
+                        </ol>
+                    </div>
+                </div>
+                <hr class="hr-case-bot">
+                <div class="row row-case">
+                    <div class="col-md-3">
+                        <h3>Ideation</h3>
+                    </div>
+                    <div class="col-md-9">
+                        <p>I consulted with QBO/QBSE designers, product managers, business development, backend architects, and engineers on the product teams and global teams to understand the timeline and constraints to produce a version 1 flow.</p>
                     </div>
                 </div>
             </div>
-        </div>
 
-            <div class="container-fluid-bar">
-                <div class="row-footer-bottom"></div>
+            <!--V1 FLOW-->
+
+            <!--TESTING/INSIGHTS/CHALLENGES-->
+            <div class="container">
+                <div class="row"></div>
+                <div class="row row-case">
+                    <div class="col-md-3">
+                        <h3>Testing</h3>
+                    </div>
+                    <div class="col-md-9">
+                        <p>I prototyped the experience in InVision and tested several iterations with QuickBooks small-business owners. I made sure to survey a variety of small-business owners ranging from ecommerce to consultants.</p>
+                        <ul>
+                            <li>Unmoderated task completion with 32 AU users and 30 UK users</li>
+                            <li>Measured for task success rate and flow comprehension</li>
+                            <li>Product managers gathered qualititative verbal feedback from accountants</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row row-case">
+                    <div class="col-md-3">
+                        <h3>Insights</h3>
+                    </div>
+                    <div class="col-md-9">
+                        <p>The biggest opportunity is influencing banks to simplify the process for users.</p>
+                        <ul>
+                            <li>Usability of the flow performed well</li>
+                            <li>Users didn't fully understand differences between a standard feed vs. direct bank feed</li>
+                            <li>Major pain point was having to print and send the form and the time to activation</li>
+                        </ul>
+                        <p>We iterated on the design based on these insights and released a version 1.</p>
+                    </div>
+                </div>
             </div>
+
+            <!--V1 DELIVERABLE-->
+            <div class="container-fluid-case">
+                <div class="container">
+                    <div class="row row-case">
+                        <div class="col-md-3">
+                            <h3>V1 Implementation</h3>
+                        </div>
+                        <div class="col-md-9">
+                            <p>We released the V1 on web first with a native iOS and Android release soon after. I provided interaction, visual and accessibility spec while our content designer provided text design.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--CHALLENGES/IMPACT/NEXT STEPS-->
+            <div class="container">
+                <div class="row"></div>
+                <div class="row row-case">
+                    <div class="col-md-3">
+                        <h3>Overall challenges</h3>
+                    </div>
+                    <div class="col-md-9">
+                        <p><b>Solving edge cases related to existing users</b><br>
+                        Existing users had a hard time understanding the benefit of upgrading to direct bank feeds when the process was so laborious. Existing users already had data coming from screen-scraping. Migrating to a new connection method caused data issues that we had to guide users through resolving.</p>
+                        <p><b>Reconciling integration and experience across different product tech stacks</b><br>
+                        Notification systems in QBO and QBSE are technologically different, making it difficult to coordinate messaging to users. Also, this direct bank feed feature integration had to fit in with both QBO and QBSE despite differences in their flows.</p>
+                        <p><b>Aligning with other connection methods</b><br>
+                        Various AU and UK banks also use a connection method called WebAuth. We worked to consolidate and extend design patterns and technology to the WebAuth use case as well.</p>
+                        <p><b>Solving bank specific use cases</b><br>
+                        Some banks had specific requests which we had to design and solve for. I worked closely with engineering to understand and ensure my design solutions for one bank could scale to another.</p>
+                        <p><b>Changes in product management</b><br>
+                        High turnover of product managers due to re-orgs in QBO caused significant churn. I spent much time educating partners on the project and influencing changing priorities.</p>
+                    </div>
+                </div>
+
+                <div class="row row-case">
+                    <div class="col-md-3">
+                        <h3>Impact</h3>
+                    </div>
+                    <div class="col-md-9">
+                        <ul>
+                            <li>Increased QuickBooks’ direct bank feed market coverage in UK by 30% and in AU to 76%, surpassing competitors' coverage</li>
+                            <li>Significant reduction in care calls received regarding screen-scraping connection issues as users migrate to direct bank feeds</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="row row-case">
+                    <div class="col-md-3">
+                        <h3>Next steps</h3>
+                    </div>
+                    <div class="col-md-9">
+                        <p>Given the constraints of what we could do in V1, there was ample opportunity to improve the experience. I collaborated with our platform team to explore enhancements for future versions using user feedback from V1.</p>
+                        <ul>
+                            <li>Manual entry of form information is a big deterrent, especially when some banks require many fields. Can we automate getting this data? What are the engineering limitations?</li>
+                            <li>Users can't distinguish the difference between the two connection types. Knowing this, is there a better way to position the tasks?</li>
+                            <li>Printing, hand-signing, and mailing the form is a big pain point. How can we work with banks to update this process while complying with regulations?</li>
+                        </ul>
+                        <p>Currently, our team is working through all these enhancements. We're coordinating with product teams and financial institutions to break down the steps to reach an ideal state geared towards minimal work for the user. I’m currently designing and prototyping the optimal experience for each intermediate release.</p>               
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- FOOTER -->
+            <div class="container-fluid-contact" id="contact">
+                <div class="container">
+                    <div class="row row-contact">
+                        <div class="col-md-12">
+                            <p><b>Let's collaborate?</b> <a href="mailto:deanna.ux@gmail.com"><u>deanna.ux@gmail.com</u></a></p>
+                            <p class="text-tight">
+                                <a href="https://www.linkedin.com/in/deannangyn/" alt="linkedin"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                                <a href="https://github.com/deannanguyen" alt="github"><i class="fab fa-github fa-lg"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="container-fluid-bar">
+            <div class="row-footer-bottom"></div>
+        </div>
         </div>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
