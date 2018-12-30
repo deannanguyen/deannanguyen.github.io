@@ -13,13 +13,13 @@ h2 {
 
 @media (min-width: 576px) {
   h1.display-4 {
-    font-size: 2.75rem;
+    font-size: 3rem;
   }
 }
 
 @media (min-width: 768px) {
   h1.display-4 {
-    font-size: 2.75rem;
+    font-size: 3rem;
   }
 }
 
@@ -139,7 +139,7 @@ h2 {
 }
 
 .row-resumepic {
-  margin-top: 60px;
+  padding-top: 60px;
 }
 
 .row-badge {
