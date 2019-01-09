@@ -11,6 +11,12 @@ h2 {
   font-weight: 400;
 }
 
+@media (min-width: 500px) {
+  #viewwork {
+    display: none;
+  }
+}
+
 @media (min-width: 576px) {
   h1.display-4 {
     font-size: 3rem;
@@ -181,6 +187,10 @@ h2 {
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-right: 1rem;
+}
+
+.btn2 {
+  background-color: #f1f1f1;
 }
 
 .btn:hover  {
