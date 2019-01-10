@@ -191,6 +191,11 @@ h2 {
 
 .btn2 {
   background-color: #f1f1f1;
+  border-radius: 8px;
+  font-size: 1em;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .btn:hover  {
